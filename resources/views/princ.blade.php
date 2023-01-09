@@ -18,13 +18,13 @@
 --}}
 
 @php
-    use App\Models\Requerimiento; 
+    /* use App\Models\Requerimiento; 
     use App\Models\asignacion;
     use App\Models\transferencia;
     use App\Models\confiden;
     $reque = Requerimiento::where('estadoid','=',1)->count();
     $asig = Asignacion::where('estadoid','=',1)->count();
-    $tran = Transferencia::where('estadoid','=',1)->count();
+    $tran = Transferencia::where('estadoid','=',1)->count(); */
 @endphp
 
 <div class="section-body">
