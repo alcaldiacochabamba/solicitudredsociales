@@ -36,7 +36,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::group(['middleware'=>'auth:sanctum'], function(){
 */
-    Route::get('/princ',function(){
+    Route::get('/',function(){
         return view('princ');
         })->name('princ');
 
